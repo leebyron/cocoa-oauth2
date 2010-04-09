@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		535A7EA1116EDC8F003D90A8 /* oauth2_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 535A7EA0116EDC8F003D90A8 /* oauth2_Prefix.pch */; };
+		535A7EA9116EDF53003D90A8 /* O2AuthFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 535A7EA5116EDF53003D90A8 /* O2AuthFlow.h */; };
+		535A7EAA116EDF53003D90A8 /* O2AuthFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 535A7EA6116EDF53003D90A8 /* O2AuthFlow.m */; };
+		535A7EAB116EDF53003D90A8 /* O2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = 535A7EA7116EDF53003D90A8 /* O2Client.h */; };
+		535A7EAC116EDF53003D90A8 /* O2Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 535A7EA8116EDF53003D90A8 /* O2Client.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -18,6 +22,10 @@
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		535A7EA0116EDC8F003D90A8 /* oauth2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oauth2_Prefix.pch; sourceTree = "<group>"; };
+		535A7EA5116EDF53003D90A8 /* O2AuthFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = O2AuthFlow.h; sourceTree = "<group>"; };
+		535A7EA6116EDF53003D90A8 /* O2AuthFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = O2AuthFlow.m; sourceTree = "<group>"; };
+		535A7EA7116EDF53003D90A8 /* O2Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = O2Client.h; sourceTree = "<group>"; };
+		535A7EA8116EDF53003D90A8 /* O2Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = O2Client.m; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* oauth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = oauth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -102,6 +110,10 @@
 		535A7E9E116EDC59003D90A8 /* auth */ = {
 			isa = PBXGroup;
 			children = (
+				535A7EA5116EDF53003D90A8 /* O2AuthFlow.h */,
+				535A7EA6116EDF53003D90A8 /* O2AuthFlow.m */,
+				535A7EA7116EDF53003D90A8 /* O2Client.h */,
+				535A7EA8116EDF53003D90A8 /* O2Client.m */,
 			);
 			path = auth;
 			sourceTree = "<group>";
@@ -122,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				535A7EA1116EDC8F003D90A8 /* oauth2_Prefix.pch in Headers */,
+				535A7EA9116EDF53003D90A8 /* O2AuthFlow.h in Headers */,
+				535A7EAB116EDF53003D90A8 /* O2Client.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				535A7EAA116EDF53003D90A8 /* O2AuthFlow.m in Sources */,
+				535A7EAC116EDF53003D90A8 /* O2Client.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
