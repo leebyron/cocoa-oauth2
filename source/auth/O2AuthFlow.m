@@ -41,7 +41,7 @@
 {
   NSURL*  serverWithParams;
 
-  serverWithParams = [url absoluteString]
+  serverWithParams = [url absoluteString];
   [[NSWorkspace sharedWorkspace] openURL:url];
 }
 
