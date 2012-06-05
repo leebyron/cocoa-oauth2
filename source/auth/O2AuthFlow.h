@@ -12,14 +12,14 @@
 }
 
 // Factory
-+ (O2AuthFlow*)authFlowWithIdentifier:(NSString*)identifier
++ (O2AuthFlow*)authFlowWithIdentifier:(NSString*)identifier;
 
 // Authorization
 - (void)visitAuthorizationServer:(NSURL*)url;
 
 // Delegate
 @property (assign) id delegate;
-@property (retain) NSString* identifer;
+@property (retain) NSString* identifier;
 
 @end
 
